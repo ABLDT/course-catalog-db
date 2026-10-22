@@ -8,7 +8,7 @@ INSERT INTO students (name, email)
 VALUES (NULL, 'test@example.com');
 
 
--- 3. CHECK violation 23502 422 Unprocessable Entity
+-- 3. CHECK violation 23514 422 Unprocessable Entity
 INSERT INTO courses (
     id,
     title,
@@ -23,7 +23,7 @@ VALUES (
 );
 
 
--- 4. FOREIGN KEY violation 23505 409 Conflict
+-- 4. FOREIGN KEY violation 23503 409 Conflict
 INSERT INTO enrollments (
     student_id,
     course_id

@@ -27,7 +27,7 @@ ORDER BY title ASC;
 
 
 -- 4. Pagination: page 2, page size 2
-?page=2&page_size=2
+-- ?page=2&page_size=2
 SELECT *
 FROM courses
 ORDER BY likes DESC
@@ -37,7 +37,7 @@ OFFSET 2;
 
 -- 5. Get one course by id
 -- Analog GET /courses/web-security
-GET /courses/web-security
+-- GET /courses/web-security
 SELECT *
 FROM courses
 WHERE id = 'web-security';

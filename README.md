@@ -56,6 +56,8 @@ course-catalog-db/
 ├── schema.sql
 ├── seed.sql
 ├── queries.sql
+├── part_5.sql
+├── index_and_explain.sql
 └── README.md
 ```
 
@@ -65,7 +67,8 @@ course-catalog-db/
 - `seed.sql` — inserts the initial Course Catalog data.
 - `queries.sql` — contains API-related queries, constraint tests, index tests, and transaction examples.
 - `README.md` — database documentation.
-
+- `part_5.sql` — constraint violation experiments and SQLSTATE codes.
+- `index_and_explain.sql` — index creation and EXPLAIN ANALYZE comparison.
 ---
 
 ## 3. Database Schema
